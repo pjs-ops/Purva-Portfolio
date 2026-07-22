@@ -13,7 +13,7 @@ type Project = {
   accent: string;
 };
 
-const github = "https://github.com/pjs-ops";
+
 const projects: Project[] = [
   {
     name: "UNCLUTTERED",
@@ -31,7 +31,7 @@ const projects: Project[] = [
       "/images/projects/Uncluttered/8.png",
     ],
     tags: ["React", "Node.js", "MongoDB", "TypeScript", "JWT"],
-    links: [{ label: "GitHub", href: github, icon: "github" }],
+    links: [{ label: "GitHub", href: "https://github.com/pjs-ops", icon: "github" }],
     accent: "var(--petal)",
   },
   {
@@ -52,7 +52,7 @@ const projects: Project[] = [
       "/images/projects/HotelEase/10H.png",
     ],
     tags: ["React", "Express.js", "MongoDB", "REST APIs", "Tailwind"],
-    links: [{ label: "GitHub", href: github, icon: "github" }],
+    links: [{ label: "GitHub", href: "https://github.com/pjs-ops/HotelEase", icon: "github" }],
     accent: "var(--blush)",
   },
   {
@@ -63,7 +63,7 @@ const projects: Project[] = [
     images: ["/images/projects/Coffee-Dashboard.png"],
     tags: ["Tableau", "SQL", "Excel", "Data Visualization", "Analytics", "Business Intelligence"],
     links: [
-      { label: "GitHub", href: github, icon: "github" },
+      { label: "GitHub", href: "https://github.com/pjs-ops/Coffee-Sales-Dashboard", icon: "github" },
     ],
     accent: "var(--rose)",
   },
