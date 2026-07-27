@@ -3,6 +3,7 @@ import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
 import { About } from "@/components/portfolio/About";
 import { Projects } from "@/components/portfolio/Projects";
+import { EducationExperience } from "@/components/portfolio/EducationExperience";
 import { Skills } from "@/components/portfolio/Skills";
 import { Coursework } from "@/components/portfolio/Coursework";
 import { Contact } from "@/components/portfolio/Contact";
@@ -18,6 +19,7 @@ function Portfolio() {
       <Hero />
       <About />
       <Projects />
+      <EducationExperience />
       <Skills />
       <Coursework />
       <Contact />

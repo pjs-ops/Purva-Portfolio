@@ -52,7 +52,10 @@ const projects: Project[] = [
       "/images/projects/HotelEase/10H.png",
     ],
     tags: ["React", "Express.js", "MongoDB", "REST APIs", "Tailwind"],
-    links: [{ label: "GitHub", href: "https://github.com/pjs-ops/HotelEase", icon: "github" }],
+    links: [
+      { label: "GitHub", href: "https://github.com/pjs-ops/HotelEase", icon: "github" },
+      { label: "Live Demo", href: "https://team-hotel-ease.vercel.app/", icon: "external" },
+    ],
     accent: "var(--blush)",
   },
   {
