@@ -5,6 +5,7 @@ const links = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "projects", label: "Projects" },
+  { id: "achievements", label: "Achievements" },
   { id: "education-experience", label: "Education & Experience" },
   { id: "skills", label: "Skills" },
   { id: "coursework", label: "Coursework" },
@@ -37,14 +38,14 @@ export function Navbar() {
       transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
       className="fixed inset-x-0 top-4 z-50 flex justify-center px-4"
     >
-      <div className="glass-pink flex items-center gap-1 rounded-full px-2 py-2 sm:gap-2 sm:px-3">
+      <div className="glass-pink flex max-w-full items-center gap-1 overflow-x-auto rounded-full px-2 py-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-2 sm:px-3">
         <a
           href="#home"
           className="hidden shrink-0 rounded-full bg-ink/90 px-4 py-2 text-sm font-semibold text-white sm:block"
         >
           PJ<span className="text-rose">.</span>
         </a>
-        <ul className="flex items-center gap-0.5 sm:gap-1">
+        <ul className="flex shrink-0 items-center gap-0.5 sm:gap-1">
           {links.map((l) => {
             const isActive = active === l.id;
             return (

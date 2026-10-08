@@ -104,15 +104,13 @@ export function EducationExperience() {
             <div className="space-y-4">
               <p className="text-xl font-bold text-ink sm:text-2xl">Kodre Hospital</p>
               <p className="text-base font-semibold text-plum/70 sm:text-lg">
-                Frontend Developer (Intern)
+                Backend Developer (Intern)
               </p>
               <span className="inline-block rounded-full border border-ink/10 bg-white/80 px-4 py-1.5 text-xs font-semibold text-ink shadow-soft">
                 June 2025 – July 2025
               </span>
               <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Worked as a Frontend Developer and built a Hospital Management System website
-                — a full-stack platform for managing hospital operations including patient
-                records, appointments, and staff/admin workflows on the frontend.
+                Worked as a Backend Developer and built a Node.js + Express REST API with MySQL for patient records and appointments, reducing query redundancy by ~30%. Performed Python/SQL data analysis and developed Tableau dashboards for patient and appointment insights.
               </p>
 
               {/* Tech tags (same pill style as Projects) */}
